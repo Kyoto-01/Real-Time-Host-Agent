@@ -1,4 +1,4 @@
 ### Out
-GET http://localhost:3000/info/out
+GET http://localhost:5000/general
 
 
