@@ -1,6 +1,6 @@
 import express from 'express';
 import morgan from 'morgan';
-import sysinfo from './sysinfo_generator.js'
+import sysinfo from './sysinfo_collector.js';
 
 
 const app = express();
