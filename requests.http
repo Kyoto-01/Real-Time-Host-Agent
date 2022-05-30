@@ -1,4 +1,5 @@
-### Out
+### GEt /general
 GET http://localhost:5000/general
 
-
+### GET /all
+GET http://localhost:5000/all
