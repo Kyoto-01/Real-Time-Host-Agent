@@ -15,7 +15,7 @@ async function get_sysinfo() {
   {
     "general": {
       "hostname": os.hostname,
-      "ip": nicsGeneral[1].ip4,
+      "ip": nicsGeneral[1]?.ip4 || nicsGeneral[0].ip4,
       "os": os.distro,
       "online": true
     },
